@@ -4,6 +4,29 @@
 Using the apples https://itunes.apple.com/search API. The application allows for you to 
 search for music or songs, and presents to you the results of the song and the artist.
 
+# Architecture used
+- Structurally I followed the MVVM pattern
+
+# Any design pattern used
+- Singleton Pattern
+- Delegate Pattern
+
+# which OOP principle applied
+- All solid Princples are highlighted except for the liskov substitution principle
+
+# Any important decision taken and its motivation
+- Structurally the MVVM pattern helps allow for better test and separation of concerns
+- Using delegate/interfaces to help with dependency injection and unit testing this is demonstrated on the units tests where mocking is required for my HTTPClient implementation
+
+# Implement the bonus features according to the senior level you would like to be
+considered for
+
+- I used my knowledge of iOS native frameworks to levarage feature on them instead of relying on 3rd party frameworks. (e.g. iOS Network.framework)
+
+# Note from me:
+- The more unit tests can be added to increase the current code coverage. Given more time this can be done.
+- Allow for the Network layer to be generic and an not work with concrete types but rather introducing interface driven code.
+
 
 ![Logo](SearchTunes/Resources/App%20Screenshots/appstore.png)
 
