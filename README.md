@@ -10,6 +10,8 @@ search for music or songs, and presents to you the results of the song and the a
 # Any design pattern used
 - Singleton Pattern
 - Delegate Pattern
+- Facade Pattern
+- Observer Pattern
 
 # which OOP principle applied
 - All solid Princples are highlighted except for the liskov substitution principle
