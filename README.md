@@ -13,8 +13,16 @@ search for music or songs, and presents to you the results of the song and the a
 - Facade Pattern
 - Observer Pattern
 
-# which OOP principle applied
-- All solid Princples are highlighted except for the liskov substitution principle
+# Which OOP principle applied
+- Classes
+- Objects
+- Properties
+- Methods
+- Access Control
+- Encapsulation
+- Abstraction
+- Inheritance
+- Method Overriding
 
 # Any important decision taken and its motivation
 - Structurally the MVVM pattern helps allow for better test and separation of concerns
@@ -26,7 +34,7 @@ considered for
 - I used my knowledge of iOS native frameworks to levarage feature on them instead of relying on 3rd party frameworks. (e.g. iOS Network.framework)
 
 # Note from me:
-- The more unit tests can be added to increase the current code coverage. Given more time this can be done.
+- More unit tests can be added to increase the current code coverage. Given more time this can be done.
 - Allow for the Network layer to be generic and an not work with concrete types but rather introducing interface driven code.
 
 
